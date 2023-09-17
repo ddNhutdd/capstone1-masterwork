@@ -1,0 +1,19 @@
+@import url(./Global.css);
+/* Header  */
+@import url(./header.css);
+/* CAROUSEL  */
+@import url(./carousel.css);
+/* SUPPORT  */
+@import url(./support.css);
+/* ABOUT  */
+@import url(./about.css);
+/* COUNTER  */
+@import url(./counter.css);
+/* SOLOGAN  */
+@import url(./sologan.css);
+@import url(./general.css);
+@import url(./feature.css);
+@import url(./feedback.css);
+@import url(./build.css);
+@import url(./footer.css);
+@import url(./backtotop.css);

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.15;
+    background-color: var(--bgr-color);
+}
+:root {
+    --bgr-color: #fff;
+    --primary: #dc4f72;
+    --title-color: #2C3038;
+    --text-color: #5a5a5a;
+    --light-bg-color: #F7F9FC;
+    --card-curve: 6px;
+    --border-color: #eee;
+    --border-color-light: #f8f9fa;
+    --light-bg-color: #F7F9FC;
+
+    --card-box-shadow: 1px 5px 7.5px rgba(14, 13, 13, 0.2);
+    --card-hover-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+}
+
+[data-theme="dark"] {
+    --primary: #dc4f72;
+    --secondary: #0d5fa8;
+    --title-color: #eee;
+    --text-color: #b7b7b7;
+    --border-color: #333;
+    --bg-lightgrey: #191c1d;
+    --border-color-light: #333;
+    --bgr-color: #131617;
+    --iframe-filter: grayscale(100%);
+    --light-bg-color: #191c1d;
+}
+
+.__title {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.__title h3 {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.__title h2 {
+    font-size: 32px;
+    line-height: 42px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+
+.__title p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 22.5px;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 667px) {
+    .__title h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+
+@media (min-width: 668px) and (max-width: 800px) {
+    .__title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media (min-width: 801px) {
+
+    .__title h2 {
+        font-size: 46px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px;
+    }
+
+}

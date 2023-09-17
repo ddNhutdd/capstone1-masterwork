@@ -1,0 +1,54 @@
+.build {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.build .buttons {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.build .theme-button {
+    transition: all .5s;
+    display: inline-block;
+    line-height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 30px;
+    text-transform: uppercase;
+}
+
+.build .btn-outline-primary.focus, .btn-outline-primary:focus, .build .btn-outline-primary.focus, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+}
+
+.build .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+.build .btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(220, 79, 114, 0.5);
+}
+
+.build .theme-button:first-child {
+    margin-bottom: 10px;
+}
+
+.build .btn-primary {
+    color: #fff;
+    background-color: #dc4f72;
+    border-color: #dc4f72;
+}
+
+@media (min-width:331px) {
+    .build .theme-button:first-child {
+        margin-bottom: 0;
+        margin-right: 0.5rem;
+    } 
+
+    .build .theme-button:last-child {
+        margin-left: 0.5rem;
+    } 
+}
